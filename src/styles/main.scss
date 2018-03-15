@@ -19,3 +19,33 @@ body {
 *:after {
   box-sizing: inherit;
 }
+
+
+/*HEADER*/
+header{position: fixed;width:100%;height:55px;z-index:99;
+  background-color: #2B303A;box-shadow: 3px 0 8px rgba(0,0,0,0.3);
+}
+header .navbar-brand{color:#fff !important;}
+header .nav-link{float:left;color:#fff !important;text-transform: capitalize;}
+header .nav-link:hover{color: #90a1c2 !important;}
+header .active{color: #92DCE5 !important;}
+.page-layout__viewport {
+  padding-top: 4rem;
+}
+
+.page-layout__nav-item--active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+.navbar-toggler-icon{background-image:url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/></svg>") !important; }
+
+@media (min-width: 992px){  .navbar-collapse{flex-basis: auto !important;} }
+/*END HEADER*/
+
+/*HOME*/
+.home_container{float:left;width:100%;min-height:900px;padding-top:60px;background-image: url("images/background2.jpg");background-size: cover; }
+.home_container h1{text-align: center;color:#D7AF70;text-transform: uppercase;font-weight: bold;margin-top: 150px;line-height: 1.3;text-shadow: 3px 0 15px rgba(0,0,0,0.5)}
+.home_form{float:left;width:100%;margin-top: 50px;}
+.home_form_register{color:#1a1a1a;}
+.home_form_bottom{text-align: center;font-size:16px;}
+/*END HOME*/

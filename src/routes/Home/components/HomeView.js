@@ -1,11 +1,19 @@
 import React from 'react'
-import DuckImage from '../assets/Duck.jpg'
-import './HomeView.scss'
+import AutView from './AuthView';
+
 
 export const HomeView = () => (
-  <div>
-    <h4>Welcome!</h4>
-    <img alt='This is a duck, because Redux!' className='duck' src={DuckImage} />
+  <div className="home_container">
+    <div className="container">
+      <div className="row justify-content-md-center">
+        <div className="col-lg-12">
+          <h1>Hoşgeldin Yiğidim!</h1>
+        </div>
+        <AutView/>
+
+
+      </div>
+    </div>
   </div>
 )
 
